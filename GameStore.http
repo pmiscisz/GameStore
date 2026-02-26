@@ -1,0 +1,15 @@
+@rootURL = https://localhost:7248
+
+GET {{rootURL}}/api/games
+Accept: application/json
+
+###
+
+POST {{rootURL}}/api/games
+Accept: application/json
+{
+  "id":5,
+  "title":"Test",
+  "developer":"Test",
+  "price": 10.00
+}
